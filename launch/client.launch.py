@@ -11,5 +11,3 @@ def generate_launch_description():
             package='vicon_receiver', executable='vicon_client', output='screen',
             parameters=[{'hostname': hostname, 'buffer_size': buffer_size, 'namespace': topic_namespace}]
         )])
-# =j= = 8`     `  q`1 q`1 `q  `[]q    `]  []    `][ `   `\  `q  `]\ `]\ `]  `q  `   q`1\    `1`q`1` ``  `   ]\
-#   ``  ````    `       q`1`    `1` `       `                       `   `   1   `   qqqqq   `       ``
